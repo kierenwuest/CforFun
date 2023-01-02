@@ -1,5 +1,5 @@
 # C for Fun
-Some playful newbie C code. Just making stuff up as I go and explore.
+Some playful newbie C code. Just making stuff up as I go and explore while learning.
 
 ### Validated Timer
 
