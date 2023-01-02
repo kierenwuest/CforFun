@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-// Char functions
+// Char and ANSI code functions
 void printChar(char c)
 {
 	write(1, &c, 1);
@@ -110,7 +110,7 @@ int	main(int argc, char **argv)
 	std = isSort(argv[1]);
 	
 	//show input and output values
-	printf("\033[2J\033[H");
+	printf("\033[2J\033[H"); //ANSI codes to clear terminal
 	printf("Input : %s \n", argv[1]);
 	printf("\033[2K\rOutput: \033[32m%s \n", sortNums(argv[1], std));
 
