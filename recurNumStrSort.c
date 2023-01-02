@@ -7,16 +7,19 @@ void printChar(char c)
 	write(1, &c, 1);
 }
 
+//delete Char
 void del(void)
 {
 	write(1, "\033[D", 3);
 }
 
+//delete line and reset cursor
 void deLine(void)
 {
 	write(1, "\033[D\033[G", 6);
 }
 
+//print red character
 void rChar(char c)
 {
 	write(1, "\033[31m", 5);
@@ -24,6 +27,7 @@ void rChar(char c)
 	write(1, "\033[0m", 4);
 }
 
+//print green character
 void gChar(char c)
 {
 	write(1, "\033[32m", 5);
@@ -31,6 +35,7 @@ void gChar(char c)
 	write(1, "\033[0m", 4);
 }
 
+//print yellow character
 void yChar(char c)
 {
 	write(1, "\033[33m", 5);
@@ -57,7 +62,7 @@ char	*sortNums(char *str, int isSorted)
 {
 	int		i = 0;
 	int		s = isSorted;
-	char	swp;
+	char		swp;
 	
 	while (str[i])
 	{	
