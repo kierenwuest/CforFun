@@ -90,7 +90,6 @@ char	*sortNums(char *str, int isSorted)
 	if (s == 0)
 		sortNums(str, 0);
 	return (str);
-	//Oh yeah
 }
 
 // Appropiately take a string of numbers in a char array
