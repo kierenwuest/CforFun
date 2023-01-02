@@ -56,7 +56,6 @@ int	isSort(char *str)
 char	*sortNums(char *str, int isSorted)
 {
 	int		i = 0;
-	int		p = 0;
 	int		s = isSorted;
 	char	swp;
 	
