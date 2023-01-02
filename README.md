@@ -5,8 +5,7 @@ Some playful newbie C code. Just making stuff up as I go and explore while learn
 
 I was watching a silly sci-fi movie called Moonfall with rocket launches, and I thought, "I wonder how to make a countdown timer", at the same time I was looking at intermittent fasting apps with timers.
 
-
-I wanted to try scanf for inputs and wanted to try some input validation capabilities.
+I wanted to try scanf for inputs and wanted to try some input validation capabilities. I should break this into functions, but this is just a creative process.
 
 ![timer_gif](https://github.com/kierenwuest/CforFun/blob/main/demo_gifs/Timer.gif)
 
