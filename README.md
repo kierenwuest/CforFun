@@ -1,4 +1,4 @@
-# C for Fun
+# C is for Fun
 Some playful newbie C code. Just making stuff up as I go and explore while learning.
 
 ### [Validated Timer](https://github.com/kierenwuest/CforFun/blob/main/validatedTimer.c)
